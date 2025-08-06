@@ -14,7 +14,9 @@ function Signup() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:3002/signup", formData);
+    const res = await axios.post(`${process.env.REACT_APP_BACKEND_URL}/signup`, formData);
+
+
       alert(res.data.message);
       navigate("/"); // ✅ redirect to homepage (HomePage component)
     } catch (err) {
