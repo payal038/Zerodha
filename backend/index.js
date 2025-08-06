@@ -253,8 +253,14 @@ app.post("/newOrder", async (req,res) =>{
 
 
 
-app.listen(PORT, ()=>{
-console.log("App started");
-mongoose.connect(url);
-console.log("DB connected")
-});
+mongoose.connect(url)
+  .then(() => {
+    console.log("✅ DB connected");
+
+    app.listen(PORT, () => {
+      console.log(`🚀 Server is running on port ${PORT}`);
+    });
+  })
+  .catch((err) => {
+    console.error("❌ Failed to connect to MongoDB:", err.message);
+  });
