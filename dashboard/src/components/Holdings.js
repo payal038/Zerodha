@@ -8,10 +8,12 @@ const Holdings = () => {
   const [allHoldings, setAllHoldings] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:3002/allHoldings").then((res) => {
-      // console.log(res.data);
-      setAllHoldings(res.data);
-    });
+    axios
+  .get(`${process.env.REACT_APP_BACKEND_URL}/allHoldings`)
+  .then((res) => {
+    setAllHoldings(res.data);
+  });
+
   }, []);
 
   // const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
