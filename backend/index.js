@@ -18,13 +18,17 @@ const url=process.env.MONGO_URL;
 const app = express();
 
 
-const cors = require("cors");
+
 
 app.use(cors({
-  origin: "https://zerodha-frontend-xfv6.onrender.com", // ✅ Your frontend render URL
+  origin: [
+    "http://localhost:3000",
+    "https://zerodha-frontend-xfv6.onrender.com"
+  ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
+
 
 
 app.use(bodyParser.json());
