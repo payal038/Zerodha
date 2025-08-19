@@ -19,16 +19,16 @@ const app = express();
 
 
 
-
 app.use(cors({
   origin: [
     "http://localhost:3000",
     "https://zerodha-frontend-xfv6.onrender.com", 
-    "https://zerodha-silk.vercel.app"   // ✅ add this
+    "https://zerodha-silk.vercel.app"
   ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
+
 
 
 
