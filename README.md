@@ -3,8 +3,8 @@
 A production-grade Zerodha clone with AI-powered trading features, real-time NSE stock prices, and agentic AI workflows.
 
 ## 🚀 Live Demo
-- **Frontend:** [Vercel](https://zerodha-ldpm.onrender.com)
-- **Backend API:** [Render](https://zerodha-ldpm.onrender.com)
+- **Frontend:** [zerodha-cwjw-git-main-zerodhas-projects-ba18fd7a.vercel.app](https://zerodha-cwjw-git-main-zerodhas-projects-ba18fd7a.vercel.app)
+- **Backend API:** [zerodha-ldpm.onrender.com](https://zerodha-ldpm.onrender.com)
 
 ## 🛠 Tech Stack
 

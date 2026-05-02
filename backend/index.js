@@ -29,6 +29,8 @@ app.use(
       "https://zerodha-frontend-xfv6.onrender.com",
       "https://zerodha-silk.vercel.app",
       "https://zerodha-ldpm.onrender.com",
+      "https://zerodha-cwjw-git-main-zerodhas-projects-ba18fd7a.vercel.app",
+      "https://zerodha-cwjw-74oejmy1n-zerodhas-projects-ba18fd7a.vercel.app",
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
