@@ -5,7 +5,6 @@ const BACKEND = process.env.REACT_APP_BACKEND_URL || "http://localhost:3002";
 
 export default function Holdings() {
   const [holdings, setHoldings] = useState([]);
-  const [analysis, setAnalysis] = useState(null);
   const [aiLoad,   setAiLoad]   = useState(false);
   const [aiOpen,   setAiOpen]   = useState(false);
   const [typed,    setTyped]    = useState("");
@@ -26,11 +25,10 @@ export default function Holdings() {
   };
 
   const analyse = async () => {
-    setAiLoad(true); setAiOpen(true); setAnalysis(null); setTyped("");
+    setAiLoad(true); setAiOpen(true); setTyped("");
     const token = localStorage.getItem("ztoken");
     try {
       const r = await axios.post(`${BACKEND}/api/analyse-portfolio`, {}, { headers:{ Authorization:`Bearer ${token}` } });
-      setAnalysis(r.data);
       let text = r.data.summary || "";
       if(r.data.recommendations?.length) {
         text += "\n\nRecommendations:";
