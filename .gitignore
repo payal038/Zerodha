@@ -14,6 +14,9 @@ build/
 */build/
 dist/
 
+# Unused local FontAwesome (loaded via CDN)
+frontend/public/fontawesome-free-6.7.2-web/
+
 # Logs
 *.log
 npm-debug.log*
