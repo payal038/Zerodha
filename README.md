@@ -94,4 +94,14 @@ REACT_APP_BACKEND_URL=http://localhost:3002
 
 ## 📸 Screenshots
 
-See `/Screenshots` folder.
+### 🏠 Home Page
+![Home](Screenshots/home.png)
+
+### 📊 Trading Dashboard
+![Dashboard](Screenshots/dashboard.png)
+
+### 🤖 AI Trading Advisor
+![AI Advisor](Screenshots/ai_adviser.png)
+
+### 📦 Products & About
+![About & Products](Screenshots/about_product.png)
