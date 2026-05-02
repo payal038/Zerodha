@@ -1,40 +1,39 @@
-# OS/Editor junk
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables (NEVER push these)
+.env
+*/.env
+backend/.env
+frontend/.env
+dashboard/.env
+
+# Build outputs
+build/
+*/build/
+dist/
 
 # Logs
-logs/
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
 
-# Env files
-.env
-.env.*
-*.local
+# OS files
+.DS_Store
+*/.DS_Store
+*/data/.DS_Store
+Thumbs.db
 
-# Node
-node_modules/
-**/node_modules/
+# Seeds (dev only)
+backend/seed.js
+backend/seedPositions.js
 
-# Build / caches
-build/
-dist/
-coverage/
-.next/
-out/
-.tmp/
-.cache/
-.eslintcache
-.vercel/
-.netlify/
+# Old dashboard (replaced by frontend/src/trading/)
+dashboard/
 
-# Per-project (explicit)
-frontend/build/
-dashboard/build/
-backend/build/
-backend/dist/
+# Planning docs (internal)
+ENHANCEMENT_PLAN.md
+
+# IDE
+.vscode/
+.idea/

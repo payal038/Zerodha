@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 
 function Universe() {
   const imageStyle = {
@@ -16,27 +16,27 @@ function Universe() {
         </p>
 
         <div className="col-4 p-3 mt-5">
-          <img src="media\image\smallcaseLogo.png"style={imageStyle} />
+          <img src="media/image/smallcaseLogo.png"style={imageStyle} />
           <p className="text-small text-muted">Thematic investment platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media\image\streakLogo.png" style={imageStyle} />
+          <img src="media/image/streakLogo.png" style={imageStyle} />
           <p className="text-small text-muted">Thematic investment platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media\image\sensibullLogo.svg"style={imageStyle} />
+          <img src="media/image/sensibullLogo.svg"style={imageStyle} />
           <p className="text-small text-muted">Thematic investment platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media\image\zerodhaFundhouse.png"style={imageStyle} />
+          <img src="media/image/zerodhaFundhouse.png"style={imageStyle} />
           <p className="text-small text-muted">Thematic investment platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media\image\goldenpiLogo.png" style={imageStyle} />
+          <img src="media/image/goldenpiLogo.png" style={imageStyle} />
           <p className="text-small text-muted">Thematic investment platform</p>
         </div>
         <div className="col-4 p-3 mt-5">
-          <img src="media\image\dittoLogo.png"style={imageStyle} />
+          <img src="media/image/dittoLogo.png"style={imageStyle} />
           <p className="text-small text-muted">Thematic investment platform</p>
         </div>
         <button
