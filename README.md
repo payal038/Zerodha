@@ -1,4 +1,4 @@
-# Zerodha Clone — Full-Stack Trading Platform
+# ZerodhaX — AI-Powered Trading Simulation Platform
 
 A production-grade Zerodha clone with AI-powered trading features, real-time NSE stock prices, and agentic AI workflows.
 
